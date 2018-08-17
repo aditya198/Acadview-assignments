@@ -25,21 +25,7 @@ B = [10,30,50]
 C = A + B
 C.sort()
 print(C)
-#Q.6 Implement a stack and queue using lists
-stack = ['Rishabh','Rajat','Pritish']
-print(stack)
-stack.append('Rahul')
-print(stack)
-stack.append('Raghav')
-print(stack)
-print("Popping: ",stack.pop())#In stack we follow Last in First Out
-print(stack)
-queues = ['Rishabh','Rajat','Pritish']
-queues.append('Rahul')
-print(queues)
-print("Popping: ",queues.pop(0))
-print(queues)
-#Optional question Count even and odd numbers in the list
+#Q.6 Count even and odd numbers in the list
 lst = [24,15,21,34,89,75,38]
 even = 0
 odd = 0
@@ -50,3 +36,22 @@ for i in lst:
         odd+=1
 print("Number of even elements are: ",even)
 print("Number of odd elements are: ",odd)
+#Tuples
+#Q.7 Reverse a tuple in python
+tuple = (1,2,3,4,5)
+print(tuple[::-1])
+#Q.8 To find largest and smallest element of tuple
+tup = (10,12,50,3,15,19,20)
+print("Maximum vaue of tuple is: ",max(tup))
+print("Minimum vallue of tuple is: ",min(tup))
+#Strings
+#Q.9 Convert string into uppercase
+str = input("Enter any string in lowercase:  ")
+print("Lowercase: ",str)
+print("Uppercase: ",str.upper())
+#Q.10  Print true if string contains all numeric characters
+str1 = input("Enter string: ")
+print(str1.isdigit())
+#Q.11 Replace the word "World" with your name in the string "Hello World"
+string = "Hello World"
+print(string.replace('World','Rishabh'))

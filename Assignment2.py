@@ -19,7 +19,8 @@ s = 'Acadview'
 course = 'Python'
 fees = 5000
 print('%s''%s''%d'%(s,course,fees))
-#Q.6-Name = 'Tony Stark',salary = 1000000 print('%s''%d'%(__,__))
-name = 'Tony Stark'
-salary = 1000000
-print('%s''%d'%(name,salary))
+#Q.6-Find area of circle and input value of radius from user.
+radius = int(input("Enter the value of radius: "))
+pi = 3.14
+area = pi*radius*radius
+print("Area of the circle is ",area)
