@@ -5,6 +5,10 @@ for i in range(n):
     text = input("Enter key:value = ").split(":")
     d[text[0]] = text[1]
 print(d)
+key = input("Enter the key whose value you want to print: ")
+for i in d:
+    if(key==i):
+        print(key,":",d[i])
 
 #Q.2)Create a dictionary and store student names and
 # create nested dictionary to store the subject wise marks of every student.
